@@ -11,6 +11,8 @@ let array2 = ['x', 'y', 'z'];
 //array1.concat(array2)
 
 //Testes práticos:
+console.log("Testes práticos: .concat")
+
 let array3 = array1.concat(array2);
 console.log(array3);
 
@@ -27,6 +29,7 @@ console.log(array4);
 //join(separador)
 
 //Testes práticos:
+console.log("Testes práticos: .join()")
 let equipe = ['Júlia', 'Vinicius', 'Fernanda', 'Rayssa', 'Mariana']
 
 //Mostrar os elementos da seguinte forma: Júlia,Vinicius,Fernanada,Rayssa,Mariana
@@ -34,4 +37,23 @@ console.log(equipe.join());
 
 //Separar os elementos da seguinte forma: Júlia-Vinicius-Fernanada-Rayssa-Mariana
 console.log(equipe.join('-'))
+
+
+//Metodo 03: .slice()
+//O método slice() é usado para retornar uma cópia de parte de um array, especificada pelos índices de início e fim.
+
+//Sintaxe:
+//slice(start)
+//slice(start, end)
+
+//Testes Práticos: 
+console.log("Testes práticos: .slice()")
+
+//Resultado esperado: Array ['Vinicius', 'Fernanda', 'Rayssa', 'Mariana']
+console.log(equipe.slice(1));
+
+//Resultado esperado: Array['a', 'b', 'c']
+console.log(array1.slice(0, 3));
+
+
 
